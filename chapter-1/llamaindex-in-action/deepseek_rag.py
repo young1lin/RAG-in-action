@@ -34,8 +34,7 @@ def main():
 
     # 创建 Deepseek LLM（通过API调用最新的DeepSeek大模型）
     llm = DeepSeek(
-        model="deepseek-reasoner",  # 使用最新的推理模型R1
-        api_key=os.getenv("DEEPSEEK_API_KEY"),  # 从环境变量获取API key
+        model="deepseek-chat",  # 使用最新的推理模型R1
     )
     print("加载环境变量完成")
 
